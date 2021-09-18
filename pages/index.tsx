@@ -13,8 +13,6 @@ import TitleAndMetaTags from '../components/TitleAndMetaTags';
 import { MarketingButton } from '../components/FancyButton';
 import { LegacyComposerHero } from '../components/HeroIllustration/HeroImage';
 import { LegacyUseCases } from '../components/HeroIllustration/HomeMission';
-import { LegacyWallOfLove } from '../components/HeroIllustration/HomeQuotes';
-import { HideInProd } from '../components/HideInProd';
 
 const Home = () => {
   return (
