@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'UntitledSans';
+    font-weight: 400;
+    font-display: swap;
+    src: local('UntitledSans-Regular'), url(UntitledSansWeb-Regular.woff2) format('woff2'),
+      url(UntitledSansWeb-Regular.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family: 'UntitledSans';
+    font-weight: 500;
+    font-display: swap;
+    src: local('UntitledSans-Medium'), url(UntitledSansWeb-Medium.woff2) format('woff2'),
+      url(UntitledSansWeb-Medium.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family: 'RadixDuo';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url('RadixDuo-Regular.eot') format('embedded-opentype'), url('RadixDuo-Regular.woff2') format('woff2'),
+      url('RadixDuo-Regular.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'RadixDuo';
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+    src: url('RadixDuo-Italic.eot') format('embedded-opentype'), url('RadixDuo-Italic.woff2') format('woff2'),
+      url('RadixDuo-Italic.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'RadixDuo';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    src: url('RadixDuo-Bold.eot') format('embedded-opentype'), url('RadixDuo-Bold.woff2') format('woff2'),
+      url('RadixDuo-Bold.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'RadixDuo';
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+    src: url('RadixDuo-BoldItalic.eot') format('embedded-opentype'), url('RadixDuo-BoldItalic.woff2') format('woff2'),
+      url('RadixDuo-BoldItalic.woff') format('woff');
+  }
