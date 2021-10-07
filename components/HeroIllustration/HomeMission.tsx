@@ -5,7 +5,7 @@ export const LegacyUseCases = () => (
   <Box>
     <Container size={2} mt={8} mb={[5, 7]}>
       <Text as="h3" size={8} mb={[5, 7]} px={[0, 8]} sx={{ lineHeight: 4 }}>
-        Blair3sat an entirely student-run cubesat team at Montgomery Blair High School.
+        Blair3sat is an entirely student-run cubesat team at Montgomery Blair High School.
       </Text>
     </Container>
 
