@@ -13,7 +13,7 @@ const About = () => {
 
       <Container size={2} mt={6} mb={[5, 7]}>
         <Text as="h2" size={8} mb={[5, 7]} px={[0, 8]} sx={{ lineHeight: 4 }}>
-          blair3sat an entirely student-run cubesat team at Montgomery Blair High School.
+          blair3sat is an entirely student-run cubesat team at Montgomery Blair High School.
         </Text>
       </Container>
 
