@@ -28,7 +28,7 @@ export const Header = () => {
         <Text size={4} sx={{ color: 'gray700', fontWeight: '500' }} ml={[1,1]}>
           <NextLink href="/" passHref>
             <Link sx={{ color: 'inherit', ':focus': { boxShadow: 'none' } }}>
-              <VisuallyHidden>Blair3sat homepage</VisuallyHidden>
+              <VisuallyHidden>blair3sat homepage</VisuallyHidden>
               blair3sat
             </Link>
           </NextLink>

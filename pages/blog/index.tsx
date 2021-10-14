@@ -10,14 +10,14 @@ const Blog = () => {
   return (
     <Box mt={6} mb={8}>
       <Container size={1}>
-        <TitleAndMetaTags title="Blair3sat Blog" description="Updates and announcements from the blair3sat team." />
+        <TitleAndMetaTags title="blair3sat Blog" description="Updates and announcements from the blair3sat team." />
 
         <Heading size={5} mb={4} sx={{ textAlign: 'center' }}>
           Blog
         </Heading>
 
         <Text as="h2" size={7} sx={{ textAlign: 'center', color: 'gray700' }}>
-          Updates From The Blair3sat Team
+          Updates From The blair3sat Team
         </Text>
       </Container>
 

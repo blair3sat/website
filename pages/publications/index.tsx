@@ -10,7 +10,7 @@ const Publications = () => {
   return (
     <Box mt={6} mb={8}>
       <Container size={2}>
-        <TitleAndMetaTags title="Blair3sat Publications" description="View our latest articles and presentations." />
+        <TitleAndMetaTags title="blair3sat Publications" description="View our latest articles and presentations." />
 
         <Heading size={5} mb={4} sx={{ textAlign: 'center', fontWeight: 500 }}>
           Publications

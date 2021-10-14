@@ -17,7 +17,7 @@ const JoinUs = () => {
           Help us launch an ionospheric research CubeSat.
         </Text>
         <Text as="p" size={4} mb={4} sx={{ lineHeight: '27px' }}>
-          Blair3sat an entirely student-run cubesat team at Montgomery Blair High School.
+          blair3sat an entirely student-run cubesat team at Montgomery Blair High School.
         </Text>
         <Text as="p" size={4} mb={4} sx={{ lineHeight: '27px' }}>
           We're developing a nanosatellite that will measure electron density in a special layer of the atmosphere called the ionosphere.

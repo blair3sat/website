@@ -13,7 +13,7 @@ export default class Rss extends React.Component {
     res.write(
       makeRssXml({
         articleType: 'publication',
-        title: 'Blair3sat Publications',
+        title: 'blair3sat Publications',
         description: "View Our Latest Articles and Presentations",
         frontMatters: publicationPosts,
       })

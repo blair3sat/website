@@ -18,7 +18,7 @@ export const Footer = () => {
           <Flex sx={{ flexDirection: [null, 'column'], alignItems: ['center', 'start'] }}>
             <NextLink href="/" passHref>
               <Link variant="fade" sx={{ color: 'inherit', ':focus': { boxShadow: 'none' } }}>
-                <VisuallyHidden>Blair3sat homepage</VisuallyHidden>
+                <VisuallyHidden>blair3sat homepage</VisuallyHidden>
                 <Logo aria-hidden />
               </Link>
             </NextLink>
@@ -30,7 +30,7 @@ export const Footer = () => {
               mt={[0, 'auto']}
               sx={{ color: 'gray700', lineHeight: '0', userSelect: 'none' }}
             >
-              &copy; Blair3sat, Inc
+              &copy; blair3sat, Inc
             </Text>
           </Flex>
           <Box>
