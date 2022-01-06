@@ -2,7 +2,9 @@ import React from 'react';
 import { Container, Box, Heading, Link, Text, Divider, Flex, Grid, AspectRatio } from '@modulz/radix';
 import { BetaAccess } from '../components/ContactFooter';
 import TitleAndMetaTags from '../components/TitleAndMetaTags';
-import { authors } from '../data/authors';
+import { sponsors } from '../data/sponsors';
+const TeamImage = require('../public/about/teamImage.JPG');
+
 
 const About = () => {
   return (
@@ -30,6 +32,28 @@ const About = () => {
         <Text as="p" size={5} mb={5} px={[0, 9]} sx={{ lineHeight: 3 }}>
           Mapping the charge density of the ionosphere has been a longstanding scientific objective, and our team’s unique approach is designed to pave the way for future research.
         </Text>
+      </Container>
+
+      <Divider mx="auto" my={8} size={2} />
+
+      <Container size={2}>
+        <Heading as="h3" size={4} mb={9} sx={{ lineHeight: 4, textAlign: 'center' }}>
+          Team
+        </Heading>
+        <Container size={2} sx={{ maxWidth: '1000px', px: 0 }}>
+        <img
+          src={TeamImage}
+          alt='blair3sat logo'
+          style={{
+            maxWidth: '100%',
+            width: '100%',
+            filter: 'drop-shadow(0px 0px 20px hsla(208, 29%, 12%, 0.42))',
+            borderRadius: '7px',
+            verticalAlign: 'middle',
+          }}
+        />
+      </Container>
+
       </Container>
 
       <Divider mx="auto" my={8} size={2} />
@@ -174,41 +198,41 @@ const About = () => {
 
       <Container size={2} sx={{ textAlign: 'center' }}>
         <Heading as="h3" size={4} mb={4}>
-          Team
+          Sponsors
         </Heading>
 
         <Text as="p" size={5} mb={7} sx={{ color: 'gray700', lineHeight: 3 }}>
-          Who we are and what we do.
+          Our generous sponsors allow us to develop our satellite.
         </Text>
       </Container>
 
       <Container size={3}>
         <Grid sx={{ gap: [5, 7], gridTemplateColumns: ['1fr 1fr', '1fr 1fr 1fr', '1fr 1fr 1fr 1fr'] }}>
-          {Object.entries(authors).map(([key, author]) => (
+          {Object.entries(sponsors).map(([key, sponsor]) => (
             <Box>
               <AspectRatio ratio="4:3">
                 <Box
                   sx={{
                     height: '100%',
-                    backgroundImage: `url(${author.mug})`,
-                    backgroundSize: 'cover',
-                    backgroundPosition: 'center',
-                    filter: 'grayscale(1)',
+                    backgroundImage: `url(${sponsor.mug})`,
+                    backgroundSize: 'contain',
+                    backgroundRepeat: 'no-repeat',
+                    backgroundPosition: 'center'
                   }}
                 />
               </AspectRatio>
               <Box mt={4} px={[0, 2]}>
                 <Text as="p" size={4} weight="medium" mb={1}>
-                  {author.name}
+                  {sponsor.name}
                 </Text>
                 <Flex sx={{ alignItems: 'center' }} mt={2}>
                   <Link
-                    href={`https://twitter.com/${author.twitter}`}
+                    href={`${sponsor.website}`}
                     target="_blank"
                     rel="noopener"
-                    aria-label={`${author.name}'s twitter account`}
+                    aria-label={`${sponsor.name}'s website`}
                   >
-                    <Text size={2}>Twitter</Text>
+                    <Text size={2}>Website</Text>
                     <Box as="span" ml={1} sx={{ display: 'inline-block', verticalAlign: 'middle' }}>
                       <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
                         <path
