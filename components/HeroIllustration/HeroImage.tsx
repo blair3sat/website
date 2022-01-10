@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Flex, Box } from '@modulz/radix';
-const HomepageHero = require('../../public/home/blair3satlogo.png');
+const HomepageHero = require('../../public/about/teamImage.JPG');
 
 export const LegacyComposerHero = () => (
   <Box pt={9} role="presentation">
     <Box pb={6} sx={{ position: 'relative' }}>
-      <Container size={2} sx={{ maxWidth: '600px', px: 0 }}>
+      <Container size={2} sx={{ maxWidth: '1200px', px: 0 }}>
         <img
           src={HomepageHero}
           alt='blair3sat logo'
