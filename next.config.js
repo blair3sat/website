@@ -54,7 +54,7 @@ module.exports = withPlugins(
  * 	- "name-of-folder"
  *
  */
-function makeIdFromPath(resourcePath) {
+/*function makeIdFromPath(resourcePath) {
   const parts = resourcePath.split('/');
   const articleType = parts[0];
   let lastPart = parts[parts.length - 1];
@@ -64,4 +64,4 @@ function makeIdFromPath(resourcePath) {
   }
 
   return `${articleType}/${lastPart.replace('.mdx', '')}`;
-}
+}*/
